@@ -14,7 +14,7 @@ const imageSeq = {
 // preload images
 for (let i = 1; i <= frameCount; i++) {
   const img = new Image();
-  img.src = `frames/frame_${String(i).padStart(4, "0")}.webp`;
+  img.src = `frame_${String(i).padStart(4, "0")}.webp`;
   images.push(img);
 }
 
