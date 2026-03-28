@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 canvas.width = 1280;
 canvas.height = 720;
 
-const frameCount = 99;
+const frameCount = 240;
 
 const images = [];
 const imageSeq = {
